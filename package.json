@@ -1,0 +1,36 @@
+{
+  "name": "latest-torbrowser-version",
+  "version": "2.0.3",
+  "description": "get the latest semver tag for tor browser",
+  "main": "index.js",
+  "bin": {
+    "latest-tbb-version": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/emrose/latest-torbrowser-version.git"
+  },
+  "keywords": [
+    "tor",
+    "browser",
+    "version"
+  ],
+  "author": "Emery Rose Hall <emery@deadcanaries.org>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://gitlab.com/emrose/latest-torbrowser-version/issues"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "homepage": "https://gitlab.com/emrose/latest-torbrowser-version#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "follow-redirects": "^1.2.4",
+    "semver": "^5.4.1"
+  }
+}
